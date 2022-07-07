@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color: #E0FFFF;
+    
+}
+
+.logo {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.25rem;
+}
+
+#about {
+    list-style-type: "☆";
+    line-height: 1.5;
+}
+
+#interests {
+    list-style-type: "✪";
+    line-height: 1.5;
+}

@@ -1,0 +1,31 @@
+.flex-cont {
+    position: absolute;
+    top: 15%;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 5%;
+
+    img {
+        border: 5px solid white;
+        border-radius: 10px;
+        box-shadow: 10px 10px 8px #555;
+    }
+
+    figcaption {
+        text-align: center;
+        font-size: 0.5rem;
+    }
+}
+
+#item {
+    width: 25%;
+    height: auto;
+}
+
+@media screen and (max-width: 560px) {
+    #item {
+        width: 75%;
+    }
+}
